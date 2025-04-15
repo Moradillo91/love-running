@@ -48,6 +48,7 @@ main {
   flex: 1 0 auto;
   /*Make main element take up any surplus space to push footer down*/
   display: flex;
+  margin-top: 47px;
 }
 /*footer*/
 footer {
