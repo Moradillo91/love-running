@@ -47,7 +47,6 @@ main {
   background-color: lightblue;
   flex: 1 0 auto;
   /*Make main element take up any surplus space to push footer down*/
-  display: flex;
   margin-top: 47px;
 }
 /*footer*/
@@ -114,4 +113,16 @@ nav {
   .nav-toggle-label {
     display: none;
   }
+}
+
+#logo {
+  font-size: 200%;
+  line-height: 75px;
+  margin: 0 0.5rem;
+}
+
+/* Main content */
+main {
+  /* Push down the content to make room for the header */
+  margin-top: 79px;
 }
