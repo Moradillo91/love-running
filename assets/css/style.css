@@ -126,3 +126,10 @@ main {
   /* Push down the content to make room for the header */
   margin-top: 79px;
 }
+
+/* Media query: Tablets and large (992px and up) */
+@media screen and (min-width: 992px) {
+  #menu  a:hover {
+    border-bottom: 1px solid #3a3a3a;
+} 
+} 
